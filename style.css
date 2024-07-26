@@ -1,0 +1,59 @@
+body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: bisque;
+}
+
+.ping1, .ping2, .ping3 {
+    position: relative;  /* imp to divide section head This makes the parent container a 
+    reference point for the absolutely positioned children */
+    background-size: cover; /* Ensure the image covers the section completely */
+    background-attachment: fixed; /* For parallax effect */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+}
+
+.ping1 {
+    height: 100vh; /* Full viewport height */
+    background-image: url(images/tree2.jpg);
+}
+
+.ping2 {
+    min-height: 600px;
+    background-image: url(images/tree3.jpg);
+}
+.ping3{
+    min-height:600px;
+    background-image: url(images/tree4.jpg);
+}
+.ptext {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 28px;
+    color: black;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.textbg {
+    background-color: yellowgreen;
+    color: black;
+    padding: 20px;
+}
+
+.section {
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.section-light {
+    background-color: black;
+    color: white;
+}
